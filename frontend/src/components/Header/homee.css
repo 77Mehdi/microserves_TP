@@ -1,0 +1,86 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Holder styling */
+.holder {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header styling */
+.header {
+  width: 100%;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.header-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header-title {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.header-text {
+  font-size: 1.125rem;
+  color: #ddd;
+  line-height: 1.6;
+}
+
+/* Flexbox utilities */
+.flex {
+  display: flex;
+}
+
+.flex-c {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: #fff;
+}
+
+/* Text utilities */
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fw-3 {
+  font-weight: 300;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .header-title {
+    font-size: 2rem;
+  }
+
+  .header-text {
+    font-size: 1rem;
+  }
+}
